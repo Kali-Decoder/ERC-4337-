@@ -61,8 +61,6 @@ async function deployScript() {
   );
   console.log("Transaction hash:", tx);
 
-  let count = await ourImplementation.counter();
-  console.log("Counter value:", count.toString());
 }
 
 async function main() {
